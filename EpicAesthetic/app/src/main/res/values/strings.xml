@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EpicAesthetic</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_all">All</string>
+    <string name="title_epic">Epic</string>
+    <string name="title_aesthetic">Aesthetic</string>
+    <string name="title_compare">Compare</string>
+    <string name="title_login">Epic / Aesthetic</string>
+    <string name="title_login_button">Log In</string>
+    <string name="title_register_description">Do not have an account? Sing up!</string>
+</resources>

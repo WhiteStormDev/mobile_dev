@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profile">
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.epicaesthetic.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_aesthetic"
+        android:name="com.example.epicaesthetic.ui.aesthetic.AestheticFragment"
+        android:label="@string/title_aesthetic"
+        tools:layout="@layout/fragment_aesthetic" />
+
+    <fragment
+        android:id="@+id/navigation_all"
+        android:name="com.example.epicaesthetic.ui.all.AllFragment"
+        android:label="@string/title_all"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/navigation_epic"
+        android:name="com.example.epicaesthetic.ui.epic.EpicFragment"
+        android:label="@string/title_epic"
+        tools:layout="@layout/fragment_epic" />
+    <fragment
+        android:id="@+id/navigation_compare"
+        android:name="com.example.epicaesthetic.ui.compare.CompareFragment"
+        android:label="@string/title_compare"
+        tools:layout="@layout/fragment_compare" />
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_aesthetic"
+        android:icon="@drawable/ic_aesthetic"
+        android:title="@string/title_aesthetic" />
+
+    <item
+        android:id="@+id/navigation_all"
+        android:icon="@drawable/ic_all"
+        android:title="@string/title_all" />
+
+    <item
+        android:id="@+id/navigation_epic"
+        android:icon="@drawable/ic_epic"
+        android:title="@string/title_epic" />
+
+    <item
+        android:id="@+id/navigation_compare"
+        android:icon="@drawable/ic_compare"
+        android:title="@string/title_compare" />
+
+</menu>
